@@ -4,7 +4,7 @@ import json
 import heapq
 import time
 import requests
-from apscheduler.schedulers.blocking import BlockingScheduler
+
 #【持股跟踪】的信息列表
 riqi = time.strftime("%m/%d", time.localtime())#获取当前日期
 cggz_file = "./data/cggz.json"#连接JSON数据库文件：【持股跟踪】
